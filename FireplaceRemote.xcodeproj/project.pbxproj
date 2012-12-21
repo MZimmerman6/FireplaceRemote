@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		422778D916844B4D00030A15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422778D816844B4D00030A15 /* UIKit.framework */; };
+		422778DB16844B4D00030A15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422778DA16844B4D00030A15 /* Foundation.framework */; };
+		422778DD16844B4D00030A15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422778DC16844B4D00030A15 /* CoreGraphics.framework */; };
+		422778E316844B4D00030A15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 422778E116844B4D00030A15 /* InfoPlist.strings */; };
+		422778E516844B4D00030A15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 422778E416844B4D00030A15 /* main.m */; };
+		422778E916844B4D00030A15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 422778E816844B4D00030A15 /* AppDelegate.m */; };
+		422778EB16844B4D00030A15 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 422778EA16844B4D00030A15 /* Default.png */; };
+		422778ED16844B4D00030A15 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 422778EC16844B4D00030A15 /* Default@2x.png */; };
+		422778EF16844B4D00030A15 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 422778EE16844B4D00030A15 /* Default-568h@2x.png */; };
+		422778F216844B4D00030A15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422778F116844B4D00030A15 /* ViewController.m */; };
+		422778F516844B4D00030A15 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 422778F316844B4D00030A15 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		422778D416844B4C00030A15 /* FireplaceRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireplaceRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		422778D816844B4D00030A15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		422778DA16844B4D00030A15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		422778DC16844B4D00030A15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		422778E016844B4D00030A15 /* FireplaceRemote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FireplaceRemote-Info.plist"; sourceTree = "<group>"; };
+		422778E216844B4D00030A15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		422778E416844B4D00030A15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		422778E616844B4D00030A15 /* FireplaceRemote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FireplaceRemote-Prefix.pch"; sourceTree = "<group>"; };
+		422778E716844B4D00030A15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		422778E816844B4D00030A15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		422778EA16844B4D00030A15 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		422778EC16844B4D00030A15 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		422778EE16844B4D00030A15 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		422778F016844B4D00030A15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		422778F116844B4D00030A15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		422778F416844B4D00030A15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		422778D116844B4C00030A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422778D916844B4D00030A15 /* UIKit.framework in Frameworks */,
+				422778DB16844B4D00030A15 /* Foundation.framework in Frameworks */,
+				422778DD16844B4D00030A15 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		422778C916844B4C00030A15 = {
+			isa = PBXGroup;
+			children = (
+				422778DE16844B4D00030A15 /* FireplaceRemote */,
+				422778D716844B4D00030A15 /* Frameworks */,
+				422778D516844B4C00030A15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		422778D516844B4C00030A15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				422778D416844B4C00030A15 /* FireplaceRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		422778D716844B4D00030A15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				422778D816844B4D00030A15 /* UIKit.framework */,
+				422778DA16844B4D00030A15 /* Foundation.framework */,
+				422778DC16844B4D00030A15 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		422778DE16844B4D00030A15 /* FireplaceRemote */ = {
+			isa = PBXGroup;
+			children = (
+				422778E716844B4D00030A15 /* AppDelegate.h */,
+				422778E816844B4D00030A15 /* AppDelegate.m */,
+				422778F016844B4D00030A15 /* ViewController.h */,
+				422778F116844B4D00030A15 /* ViewController.m */,
+				422778F316844B4D00030A15 /* ViewController.xib */,
+				422778DF16844B4D00030A15 /* Supporting Files */,
+			);
+			path = FireplaceRemote;
+			sourceTree = "<group>";
+		};
+		422778DF16844B4D00030A15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				422778E016844B4D00030A15 /* FireplaceRemote-Info.plist */,
+				422778E116844B4D00030A15 /* InfoPlist.strings */,
+				422778E416844B4D00030A15 /* main.m */,
+				422778E616844B4D00030A15 /* FireplaceRemote-Prefix.pch */,
+				422778EA16844B4D00030A15 /* Default.png */,
+				422778EC16844B4D00030A15 /* Default@2x.png */,
+				422778EE16844B4D00030A15 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		422778D316844B4C00030A15 /* FireplaceRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 422778F816844B4D00030A15 /* Build configuration list for PBXNativeTarget "FireplaceRemote" */;
+			buildPhases = (
+				422778D016844B4C00030A15 /* Sources */,
+				422778D116844B4C00030A15 /* Frameworks */,
+				422778D216844B4C00030A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireplaceRemote;
+			productName = FireplaceRemote;
+			productReference = 422778D416844B4C00030A15 /* FireplaceRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		422778CB16844B4C00030A15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Matthew Zimmerman";
+			};
+			buildConfigurationList = 422778CE16844B4C00030A15 /* Build configuration list for PBXProject "FireplaceRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 422778C916844B4C00030A15;
+			productRefGroup = 422778D516844B4C00030A15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				422778D316844B4C00030A15 /* FireplaceRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		422778D216844B4C00030A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422778E316844B4D00030A15 /* InfoPlist.strings in Resources */,
+				422778EB16844B4D00030A15 /* Default.png in Resources */,
+				422778ED16844B4D00030A15 /* Default@2x.png in Resources */,
+				422778EF16844B4D00030A15 /* Default-568h@2x.png in Resources */,
+				422778F516844B4D00030A15 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		422778D016844B4C00030A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422778E516844B4D00030A15 /* main.m in Sources */,
+				422778E916844B4D00030A15 /* AppDelegate.m in Sources */,
+				422778F216844B4D00030A15 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		422778E116844B4D00030A15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				422778E216844B4D00030A15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		422778F316844B4D00030A15 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				422778F416844B4D00030A15 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		422778F616844B4D00030A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		422778F716844B4D00030A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		422778F916844B4D00030A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FireplaceRemote/FireplaceRemote-Prefix.pch";
+				INFOPLIST_FILE = "FireplaceRemote/FireplaceRemote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		422778FA16844B4D00030A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FireplaceRemote/FireplaceRemote-Prefix.pch";
+				INFOPLIST_FILE = "FireplaceRemote/FireplaceRemote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		422778CE16844B4C00030A15 /* Build configuration list for PBXProject "FireplaceRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422778F616844B4D00030A15 /* Debug */,
+				422778F716844B4D00030A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		422778F816844B4D00030A15 /* Build configuration list for PBXNativeTarget "FireplaceRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422778F916844B4D00030A15 /* Debug */,
+				422778FA16844B4D00030A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 422778CB16844B4C00030A15 /* Project object */;
+}
